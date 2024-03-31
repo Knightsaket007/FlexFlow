@@ -7,7 +7,7 @@ function HomeSlider() {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
-  const RAR_file_Url = "https://flexflow-server.onrender.com/FLexFlow1_0_4.rar"
+  const RAR_file_Url = "https://flexflow-css.netlify.app/FLexFlow1_0_4.rar"
   function downloadFile() {
     // e.preventDefault();
     console.log("Downloading file...");
