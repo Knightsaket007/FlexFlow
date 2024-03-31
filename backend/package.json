@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "server": "nodemon index.js",
-    "dev": "concurrently\"npm start\" \"npm run client\""
+    "dev": "concurrently\"npm start\" \"npm run client\"",
+    "build": "echo 'Build script placeholder'"
   },
   "author": "Saket Sourav",
   "license": "ISC",

@@ -16,8 +16,8 @@ const cors = require('cors');
 
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:3000",
-  // origin: 'https://flexflow-css.netlify.app/',
+  // origin: "http://localhost:3000",
+  origin: 'https://flexflow-css.netlify.app/',
   credentials: true,
 }))
 app.use(fileUpload({
