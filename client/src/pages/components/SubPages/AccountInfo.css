@@ -1,0 +1,84 @@
+.h4Head {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.InfoChanges_form {
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.InfoChanges_form label {
+    display: block;
+    margin-top: 10px;
+    /* background-color: burlywood; */
+}
+
+.InfoChanges_form input {
+    height: 30px;
+    width: 60%;
+    background-color: transparent;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    border: none;
+    border: rgb(215, 223, 223) solid 2px;
+    outline: none;
+    padding-left: .9rem;
+    border-radius: 4px;
+}
+
+.InfoChanges_form button {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.InfoChanges_form select {
+    appearance: none;
+    /* safari */
+    -webkit-appearance: none;
+    /* other styles for aesthetics */
+    /* width: 100%; */
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+
+    /* border: 1px solid #caced1; */
+    outline: none;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+
+}
+
+
+
+
+@media(max-width:800px) {
+    .h4Head {
+        margin-left: 0px;
+    }
+
+    .InfoChanges_form input {
+        width: 100%;
+    }
+
+
+}
+
+.update-status{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+}
+
+.cust-btn.disabled {
+    cursor: not-allowed;
+    opacity: 0.6; 
+  }

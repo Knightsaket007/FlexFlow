@@ -1,0 +1,285 @@
+.cen{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.code-container{
+    background-color: rgb(37, 35, 35);
+    padding: 5px 15px;
+    border-radius: 4px;
+    width: 80%;
+    height: fit-content;
+    color: white;
+}
+
+.p-doc{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.colors-div{
+    width: 90% !important;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.bg-dark{
+    background-color: transparent !important;
+}
+
+.btn-container{
+    /* display: flex;
+    justify-content: center; */
+    /* gap: 20px; */
+    background-color:#f6f8f8;
+    padding: 10px;
+    border-radius: 4px;
+    width: 95%;
+    position: relative;
+    height: fit-content !important;
+    display: block;
+   
+}
+
+.flx-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+/*============ DARK ===================*/
+.drk{
+    color: #17181a;
+    outline: 1px solid #17181a !important;
+}
+
+.drk:hover{
+    color: white;
+    background-color: #17181a;
+}
+
+/*============ STAWBERRY ===================*/
+.wht{
+    color:#fff;
+    outline: 1px solid #fff !important;
+}
+
+.wht:hover{
+    color: black !important;
+    background-color: #fff;
+
+}
+
+
+.relaive-div{
+    position: relative !important;
+    margin-top: 30px;
+}
+@media(max-width:571px){
+.relaive-div{
+    position: relative !important;
+    margin-top: 140px;
+}
+
+}
+
+
+
+#Mob-Linkcontainer {
+    width: 50%;
+    position: absolute;
+    height: fit-content;
+    top: 55px;
+    left: 10px;
+    animation: aniNav 1s forwards;
+    display: none;
+    padding-top: 10px;
+}
+
+@keyframes aniNav {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#Mob-Linkcontainer.nav-act {
+    display: block !important;
+}
+
+
+
+.hamburger-container {
+    position: relative;
+    width: 25px;
+    /* Adjust the size of the icon */
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Style for the lines in the hamburger menu icon */
+/*======= Black ========*/
+.hamburger-container.black::before,
+.hamburger-container.black::after,
+.hamburger-line.black {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* Adjust the height of each line */
+    background-color: #0c0c0c;
+    transition: transform 0.4s ease, top 0.3s ease;
+}
+
+/*======= White ========*/
+.hamburger-container.white::before,
+.hamburger-container.white::after,
+.hamburger-line.white {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* Adjust the height of each line */
+    background-color: #f7f7f8;
+    transition: transform 0.4s ease, top 0.3s ease;
+}
+
+
+/* Positioning the lines */
+.hamburger-container::before {
+    top: -2px;
+}
+
+.hamburger-container::after {
+    bottom: -2px;
+}
+
+/* Default state - hamburger icon */
+.hamburger-line {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger-container.act::before {
+    top: 9px;
+    transform: rotate(-45deg) translate(-5px, -6px);
+}
+
+.hamburger-container.act .hamburger-line {
+    opacity: 0;
+}
+
+.hamburger-container.act::after {
+    bottom: 9px;
+    transform: rotate(45deg) translate(-5px, 6px);
+}
+
+
+/*===================== NAV 2 ======================*/
+/*===================== NAV 2 ======================*/
+/*===================== NAV 2 ======================*/
+
+#Mob-Linkcontainer2 {
+    width: 50%;
+    position: absolute;
+    height: fit-content;
+    top: 55px;
+    left: 10px;
+    animation: aniNav 1s forwards;
+    display: none;
+    padding-top: 10px;
+}
+
+@keyframes aniNav {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#Mob-Linkcontainer2.nav-act2 {
+    display: block !important;
+}
+
+
+
+.hamburger-container2 {
+    position: relative;
+    width: 25px;
+    /* Adjust the size of the icon */
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Style for the lines in the hamburger menu icon */
+/*======= Black ========*/
+.hamburger-container2.black::before,
+.hamburger-container2.black::after,
+.hamburger-line2.black {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* Adjust the height of each line */
+    background-color: #0c0c0c;
+    transition: transform 0.4s ease, top 0.3s ease;
+}
+
+/*======= White ========*/
+.hamburger-container2.white::before,
+.hamburger-container2.white::after,
+.hamburger-line2.white {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* Adjust the height of each line */
+    background-color: #f7f7f8;
+    transition: transform 0.4s ease, top 0.3s ease;
+}
+
+
+/* Positioning the lines */
+.hamburger-container2::before {
+    top: -2px;
+}
+
+.hamburger-container2::after {
+    bottom: -2px;
+}
+
+/* Default state - hamburger icon */
+.hamburger-line2 {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger-container2.act2::before {
+    top: 9px;
+    transform: rotate(-45deg) translate(-5px, -6px);
+}
+
+.hamburger-container2.act2 .hamburger-line2 {
+    opacity: 0;
+}
+
+.hamburger-container2.act2::after {
+    bottom: 9px;
+    transform: rotate(45deg) translate(-5px, 6px);
+}

@@ -1,0 +1,11 @@
+.component-title{
+   cursor: pointer; 
+}
+.component-title:hover{
+   cursor: pointer;
+   color: rgb(146, 146, 192); 
+}
+.container-desc{
+    width: 70%;
+    overflow-wrap: break-word;
+}

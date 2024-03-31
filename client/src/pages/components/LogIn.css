@@ -1,0 +1,152 @@
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+/* Style for input type number for Chrome/Safari/Edge */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Style for input type number for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+#big-dull-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(20, 19, 20, 0.589);
+  z-index: 4000  !important;
+}
+
+#main-log-container {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  right: 0;
+  /* bottom: 0; */
+  z-index: 5000 !important;
+  /* background-color: #6bb7be; */
+  background-color: #f9fafa;
+  box-shadow: hsla(236, 50%, 50%, .3) 10px 10px 90px 15px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+#main-log-container form input {
+  height: 30px;
+  width: 80%;
+  background-color: transparent;
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  border: none;
+  border: rgb(94, 92, 92) solid 2px;
+  outline: none;
+  padding-left: .9rem;
+  border-radius: 4px;
+  color: black;
+}
+
+#main-log-container label {
+  display: block;
+  color: black;
+  margin-top: 20px;
+}
+
+#main-log-container h5 {
+  color: orangered;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main-log-container button {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: 550;
+
+}
+
+#vis p {
+
+  margin-top: 5px;
+}
+
+#main-log-container span {
+  color: #6bb7be;
+  margin-top: 5px;
+  border-bottom: 2px solid #6bb7be;
+  cursor: pointer;
+  word-wrap: break-word;
+  /* display: block; */
+}
+
+@media (max-width: 844px) {
+  #main-log-container {
+    /* position: fixed; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    right: -40%;
+
+  }
+
+  #main-log-container button {
+   margin-top: 10px;
+   width: 80%;
+
+  }
+
+}
+
+
+
+/* ================OTP =================*/
+#otp-container {
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#otp-container #gap {
+  margin-right: 15px;
+}
+
+#otp-container input {
+  width: 35px;
+  height: 45px;
+  background-color: rgb(95, 92, 95);
+  outline: none;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#vis2 {
+  display: none;
+}
+
+.dz1 {
+  cursor: none !important;
+  /* display: none; */
+  opacity: .3;
+}
+
+.dz1:hover {
+  color: initial !important;
+}

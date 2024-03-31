@@ -1,0 +1,20 @@
+
+.playground-container{
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+.MonacoEditor{
+    height:100vh ;
+    width: 50%;
+}
+
+.output-preview{
+    width: 50%;
+    height: 100vh;
+    max-height:600px ;
+    background-color: #f9fafa;
+    position: relative !important;
+    padding: 10px;
+    overflow-y: scroll;
+}

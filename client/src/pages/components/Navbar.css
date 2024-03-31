@@ -1,0 +1,23 @@
+#profile-div {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #5f6163 0px 0px 20px -4px;
+  }
+  
+  #profile-div img {
+    height: 93%;
+    width: 93%;
+    border-radius: 4px;
+    
+  }
+
+  header{
+    width: 100%;
+    margin: 0 !important;
+    z-index: 100 !important;
+  }

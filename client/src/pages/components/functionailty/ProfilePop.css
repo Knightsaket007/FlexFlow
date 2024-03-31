@@ -1,0 +1,35 @@
+
+
+.prof-container{
+    height: fit-content;
+    width: 200px;
+    background-color: rgb(45, 46, 46);
+    opacity: .9;
+    position: fixed;
+    margin-top: 26px;
+    right: 20px;
+    top: 40px;
+    border-radius: 5px;
+    box-shadow: #0a0a0a 0px 0px 11px -4px;
+    /* padding: 10px 0px; */
+    text-decoration: none;
+    z-index: 20;
+    padding-top: px;
+}
+
+.prof-container ul{
+padding: 10px 0px;
+list-style-type: none;
+}
+.prof-container ul li{
+    padding: 0px 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: azure;
+    /* background-color: blueviolet; */
+}
+
+
+.prof-container ul :hover{
+    background-color: rgb(58, 65, 73);
+} 
