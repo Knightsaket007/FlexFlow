@@ -1,0 +1,1090 @@
+:root {
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --apple: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --azure: azure;
+    --gray-dark: #343a40;
+    --prime: #007bff;
+    --primeOff: #0069d9;
+    --gray: #6c757d;
+    --grapes: #28a745;
+    --berry: #17a2b8;
+    --banana: #ffc107;
+    --stawberry: #e72f6d;
+    --dark: #17181a;
+}
+
+/* Use the CSS variable */
+body {
+    font-family: var(--font-family-monospace);
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+span,
+nav,
+ul,
+li {
+    overflow-wrap: break-word;
+}
+
+.upcase {
+    text-transform: uppercase;
+}
+
+.lwcase {
+    text-transform: lower;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.fx {
+    position: fixed;
+}
+
+.stc {
+    position: static;
+}
+
+.stky {
+    position: sticky;
+}
+
+.flx{
+    display: flex;
+    gap:2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flx.nowrap{
+    flex-wrap: nowrap;
+}
+
+
+input {
+    height: 20px;
+    min-width: 50px;
+    border: none;
+    outline: #6c757d 1px solid;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: #7c8185 2px solid;
+}
+
+.no-style {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: none;
+    display: inline-block;
+}
+
+.li-inline,
+.li-inline li {
+    display: inline-block;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/*=================== MEGATRON ====================*/
+.megatron {
+    background-color: var(--gray);
+    border-radius: 6px;
+    min-height: 100px;
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto !important;
+    padding: 12px;
+    color: white;
+}
+
+/*=================== MEGATRON ====================*/
+
+/*=============== UPLOAD INPUT  =================*/
+/*=============== UPLOAD INPUT  =================*/
+
+/*===================== UPLOAD =================*/
+
+input[type="file"] {
+    display: none !important;
+}
+
+.btn-upload {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+}
+
+.btn-upload:hover {
+    opacity: .8;
+}
+
+/*===================== IMAGE UPLOAD BLACK =================*/
+.btn-upload-image-black {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+    background: url('https://res.cloudinary.com/dgvxw3l0i/image/upload/v1709810914/Add_a_subheading_txnz8c.svg');
+    background-size: contain;
+    /* or 'cover' depending on your preference */
+    background-position: center;
+    /* or adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.btn-upload-image-black:hover {
+    opacity: .8;
+}
+
+/*===================== IMAGE UPLOAD WHITE =================*/
+.btn-upload-image-white {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+    background: url('https://res.cloudinary.com/dgvxw3l0i/image/upload/v1709813247/photo-white_c9yz6k.svg');
+    background-size: contain;
+    /* or 'cover' depending on your preference */
+    background-position: center;
+    /* or adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.btn-upload-image-white:hover {
+    opacity: .8;
+}
+
+/*===================== VIDEO UPLOAD BLACK =================*/
+.btn-upload-video-black {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+    background: url('https://res.cloudinary.com/dgvxw3l0i/image/upload/v1709813614/video-black_mowq1k.svg');
+    background-size: contain;
+    /* or 'cover' depending on your preference */
+    background-position: center;
+    /* or adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.btn-upload-video-black:hover {
+    opacity: .8;
+}
+
+/*===================== VIDEO UPLOAD WHITE =================*/
+.btn-upload-video-white {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+    background: url('https://res.cloudinary.com/dgvxw3l0i/image/upload/v1709813644/video-white_bfvtow.png');
+    background-size: contain;
+    /* or 'cover' depending on your preference */
+    background-position: center;
+    /* or adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.btn-upload-video-white:hover {
+    opacity: .8;
+}
+
+/*===================== DOCUMENT FILE WHITE =================*/
+.btn-upload-file-white {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+    background: url('https://res.cloudinary.com/dgvxw3l0i/image/upload/v1709814008/file-white_rpen7s.svg');
+    background-size: contain;
+    /* or 'cover' depending on your preference */
+    background-position: center;
+    /* or adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.btn-upload-file-white:hover {
+    opacity: .8;
+}
+
+/*===================== DOCUMENT FILE BLACK =================*/
+.btn-upload-file-black {
+    cursor: pointer;
+    /* background-color: #28a745; */
+    min-width: 52px;
+    min-height: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border: #4a4c4e 1px solid;
+    transition: .2s all;
+    background: url('https://res.cloudinary.com/dgvxw3l0i/image/upload/v1709814016/file-black_ef2wfn.svg');
+    background-size: contain;
+    /* or 'cover' depending on your preference */
+    background-position: center;
+    /* or adjust as needed */
+    background-repeat: no-repeat;
+}
+
+.btn-upload-file-black:hover {
+    opacity: .8;
+}
+
+
+/*=============== UPLOAD INPUT ENDED  =================*/
+/*=============== UPLOAD INPUT ENDED  =================*/
+
+
+.clr-prime {
+    color: var(--prime);
+}
+
+.clr-gray {
+    color: var(--gray);
+}
+
+.clr-orange {
+    color: var(--orange);
+}
+
+.clr-gray-dark {
+    color: var(--gray-dark);
+}
+
+.clr-grapes {
+    color: var(--grapes);
+}
+
+.clr-banana {
+    color: var(--banana);
+}
+
+.clr-berry {
+    color: var(--berry);
+}
+
+.clr-apple {
+    color: var(--apple);
+}
+
+.clr-stawberry {
+    color: var(--stawberry);
+}
+
+.clr-dark {
+    color: var(--dark);
+}
+
+.clr-white {
+    color: var(--white);
+}
+
+
+
+.bg-prime {
+    background-color: var(--prime);
+}
+
+.bg-berry {
+    background-color: var(--berry);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-grapes {
+    background-color: var(--grapes);
+}
+
+.bg-banana {
+    background-color: var(--banana);
+}
+
+.bg-apple {
+    background-color: var(--apple);
+}
+
+.bg-stawberry {
+    background-color: var(--stawberry);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.bg-gray-dark {
+    background-color: var(--gray-dark);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-azure {
+    background-color: var(--azure);
+}
+
+
+/*==================== Filled BUTTON =============*/
+/*==================== Filled BUTTON =============*/
+button {
+    min-width: 80px;
+    min-height: 25px;
+    background-color: rgb(177, 182, 182);
+}
+
+button.btn-filled,
+.btn-filled[type="button"] {
+    width: fit-content;
+    min-width: 90px;
+    height: 33px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: .9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: .15s ease-out;
+}
+
+/*============ ORANGE ===================*/
+button.btn-filled.bg-orange,
+.btn-filled.bg-orange[type="button"] {
+    background-color: var(--orange);
+}
+
+button.btn-filled.bg-orange:hover,
+.btn-filled.bg-orange[type="button"]:hover {
+    background-color: #d16914;
+}
+
+button.btn-filled.bg-orange:focus,
+.btn-filled.bg-orange[type="button"]:focus {
+    outline: 1px solid var(--orange);
+    box-shadow: #c4600e -0px 0px 20px -8px;
+}
+
+/*============ BERRY ===================*/
+button.btn-filled.bg-berry,
+.btn-filled.bg-berry[type="button"] {
+    background-color: var(--berry);
+}
+
+button.btn-filled.bg-berry:hover,
+.btn-filled.bg-berry[type="button"]:hover {
+    background-color: #108496;
+}
+
+button.btn-filled.bg-berry:focus,
+.btn-filled.bg-berry[type="button"]:focus {
+    outline: 1px solid var(--berry);
+    box-shadow: #108496 -0px 0px 20px -8px;
+}
+
+/*============ PRIME ===================*/
+button.btn-filled.bg-prime,
+.btn-filled.bg-prime[type="button"] {
+    background-color: var(--prime);
+}
+
+button.btn-filled.bg-prime:hover,
+.btn-filled.bg-prime[type="button"]:hover {
+    background-color: var(--primeOff);
+}
+
+button.btn-filled.bg-prime:focus,
+.btn-filled.bg-prime[type="button"]:focus {
+    outline: 1px solid var(--prime);
+    box-shadow: #0069d9 -0px 0px 20px -8px;
+}
+
+/*============ Grapes ===================*/
+button.btn-filled.bg-grapes,
+.btn-filled.bg-grapes[type="button"] {
+    background-color: var(--grapes);
+}
+
+button.btn-filled.bg-grapes:hover,
+.btn-filled.bg-grapes[type="button"]:hover {
+    background-color: #1d8f38;
+}
+
+button.btn-filled.bg-grapes:focus,
+.btn-filled.bg-grapes[type="button"]:focus {
+    outline: 1px solid var(--grapes);
+    box-shadow: #1d8f38 -0px 0px 20px -8px;
+}
+
+/*============ BANANA ===================*/
+button.btn-filled.bg-banana,
+.btn-filled.bg-banana[type="button"] {
+    background-color: var(--banana);
+}
+
+button.btn-filled.bg-banana:hover,
+.btn-filled.bg-banana[type="button"]:hover {
+    background-color: #dba70a;
+}
+
+button.btn-filled.bg-banana:focus,
+.btn-filled.bg-banana[type="button"]:focus {
+    outline: 1px solid var(--banana);
+    box-shadow: #dba70a -0px 0px 20px -8px;
+}
+
+/*============ APPLE ===================*/
+button.btn-filled.bg-apple,
+.btn-filled.bg-apple[type="button"] {
+    background-color: var(--apple);
+}
+
+button.btn-filled.bg-apple:hover,
+.btn-filled.bg-apple[type="button"]:hover {
+    background-color: #bd2f3d;
+}
+
+button.btn-filled.bg-apple:focus,
+.btn-filled.bg-apple[type="button"]:focus {
+    outline: 1px solid var(--apple);
+    box-shadow: #bd2f3d -0px 0px 20px -8px;
+}
+
+/*============ Stawberry ===================*/
+button.btn-filled.bg-stawberry,
+.btn-filled.bg-stawberry[type="button"] {
+    background-color: var(--stawberry);
+}
+
+button.btn-filled.bg-stawberry:hover,
+.btn-filled.bg-stawberry[type="button"]:hover {
+    background-color: #ca1f58;
+}
+
+button.btn-filled.bg-stawberry:focus,
+.btn-filled.bg-stawberry[type="button"]:focus {
+    outline: 1px solid var(--stawberry);
+    box-shadow: #ca1f58 -0px 0px 20px -8px;
+}
+
+/*============ GRAY ===================*/
+button.btn-filled.bg-gray,
+.btn-filled.bg-gray[type="button"] {
+    background-color: var(--gray);
+}
+
+button.btn-filled.bg-gray:hover,
+.btn-filled.bg-gray[type="button"]:hover {
+    background-color: #535a5f;
+}
+
+button.btn-filled.bg-gray:focus,
+.btn-filled.bg-gray[type="button"]:focus {
+    outline: 1px solid var(--gray);
+    box-shadow: #535a5f -0px 0px 20px -8px;
+}
+
+/*============ GRAY DARK ===================*/
+button.btn-filled.bg-gray-dark,
+.btn-filled.bg-gray-dark[type="button"] {
+    background-color: var(--gray-dark);
+}
+
+button.btn-filled.bg-gray-dark:hover,
+.btn-filled.bg-gray-dark[type="button"]:hover {
+    background-color: #4a4c4e;
+}
+
+button.btn-filled.bg-gray-dark:focus,
+.btn-filled.bg-gray-dark[type="button"]:focus {
+    outline: 1px solid var(--gray-dark);
+    box-shadow: #2b2f33 -0px 0px 20px -8px;
+}
+
+/*============ GRAY DARK ===================*/
+button.btn-filled.bg-dark,
+.btn-filled.bg-dark[type="button"] {
+    background-color: var(--dark);
+}
+
+button.btn-filled.bg-dark:hover,
+.btn-filled.bg-dark[type="button"]:hover {
+    background-color: #2b2b2c;
+}
+
+button.btn-filled.bg-dark:focus,
+.btn-filled.bg-dark[type="button"]:focus {
+    outline: 1px solid var(--dark);
+    box-shadow: #2b2b2c -0px 0px 20px -8px;
+}
+
+/*============ GRAY DARK ===================*/
+button.btn-filled.bg-white,
+.btn-filled.bg-white[type="button"] {
+    background-color: var(--white);
+    color: #17181a !important;
+}
+
+button.btn-filled.bg-white:hover,
+.btn-filled.bg-white[type="button"]:hover {
+    background-color: #f0e9e9;
+}
+
+button.btn-filled.bg-white:focus,
+.btn-filled.bg-white[type="button"]:focus {
+    outline: 1px solid var(--white);
+    box-shadow: #dfdbdb -0px 0px 20px -8px;
+}
+
+/*==================== Filled BUTTON ENDED =============*/
+/*==================== Filled BUTTON ENDED =============*/
+
+
+
+/*==================== OUTLINED BUTTON =============*/
+/*==================== OUTLINED BUTTON =============*/
+button.btn-outlined,
+.btn-outlined[type="button"] {
+    background-color: transparent;
+    font-family: var(--font-family-sans-serif), Arial, sans-serif;
+    width: fit-content;
+    min-width: 90px;
+    height: 33px;
+    padding: 10px 20px;
+    font-family: var(--font-family-monospace);
+    outline: none;
+    border: none;
+    font-size: .9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .15s ease-out;
+}
+
+/*============ PRIME ===================*/
+button.btn-outlined.bg-prime,
+.btn-outlined.bg-prime[type="button"] {
+    color: var(--prime);
+    outline: 1px solid var(--prime);
+}
+
+button.btn-outlined.bg-prime:hover,
+.btn-outlined.bg-prime[type="button"]:hover {
+    color: white;
+    background-color: var(--prime);
+}
+
+/*============ BERRY ===================*/
+button.btn-outlined.bg-berry,
+.btn-outlined.bg-berry[type="button"] {
+    color: var(--berry);
+    outline: 1px solid var(--berry);
+}
+
+button.btn-outlined.bg-berry:hover,
+.btn-outlined.bg-berry[type="button"]:hover {
+    color: white;
+    background-color: var(--berry);
+}
+
+/*============ ORANGE ===================*/
+button.btn-outlined.bg-orange,
+.btn-outlined.bg-orange[type="button"] {
+    color: var(--orange);
+    outline: 1px solid var(--orange);
+}
+
+button.btn-outlined.bg-orange:hover,
+.btn-filled.bg-orange[type="button"]:hover {
+    color: white;
+    background-color: var(--orange);
+}
+
+/*============ GRAPES ===================*/
+button.btn-outlined.bg-grapes,
+.btn-outlined.bg-grapes[type="button"] {
+    color: var(--grapes);
+    outline: 1px solid var(--grapes);
+}
+
+button.btn-outlined.bg-grapes:hover,
+.btn-filled.bg-grapes[type="button"]:hover {
+    color: white;
+    background-color: var(--grapes);
+}
+
+/*============ BANANA ===================*/
+button.btn-outlined.bg-banana,
+.btn-outlined.bg-banana[type="button"] {
+    color: var(--banana);
+    outline: 1px solid var(--banana);
+}
+
+button.btn-outlined.bg-banana:hover,
+.btn-filled.bg-banana[type="button"]:hover {
+    color: white;
+    background-color: var(--banana);
+}
+
+/*============ APPLE ===================*/
+button.btn-outlined.bg-apple,
+.btn-outlined.bg-apple[type="button"] {
+    color: var(--apple);
+    outline: 1px solid var(--apple);
+}
+
+button.btn-outlined.bg-apple:hover,
+.btn-filled.bg-apple[type="button"]:hover {
+    color: white;
+    background-color: var(--apple);
+}
+
+/*============ STAWBERRY ===================*/
+button.btn-outlined.bg-stawberry,
+.btn-outlined.bg-stawberry[type="button"] {
+    color: var(--stawberry);
+    outline: 1px solid var(--stawberry);
+}
+
+button.btn-outlined.bg-stawberry:hover,
+.btn-filled.bg-stawberry[type="button"]:hover {
+    color: white;
+    background-color: var(--stawberry);
+}
+
+/*============ GRAY ===================*/
+button.btn-outlined.bg-gray,
+.btn-outlined.bg-gray[type="button"] {
+    color: var(--gray);
+    outline: 1px solid var(--gray);
+}
+
+button.btn-outlined.bg-gray:hover,
+.btn-filled.bg-gray[type="button"]:hover {
+    color: white;
+    background-color: var(--gray);
+}
+
+/*============ GRAY DARK ===================*/
+button.btn-outlined.bg-gray-dark,
+.btn-outlined.bg-gray-dark[type="button"] {
+    color: var(--gray-dark);
+    outline: 1px solid var(--gray-dark);
+}
+
+button.btn-outlined.bg-gray-dark:hover,
+.btn-filled.bg-gray-dark[type="button"]:hover {
+    color: white;
+    background-color: var(--gray-dark);
+}
+
+/*============ DARK ===================*/
+button.btn-outlined.bg-dark,
+.btn-outlined.bg-dark[type="button"] {
+    color: var(--dark);
+    outline: 1px solid var(--dark);
+}
+
+button.btn-outlined.bg-dark:hover,
+.btn-filled.bg-dark[type="button"]:hover {
+    color: white;
+    background-color: var(--dark);
+}
+
+/*============ STAWBERRY ===================*/
+button.btn-outlined.bg-white,
+.btn-outlined.bg-white[type="button"] {
+    color: var(--white);
+    outline: 1px solid var(--white);
+}
+
+button.btn-outlined.bg-white:hover,
+.btn-filled.bg-white[type="button"]:hover {
+    color: black !important;
+    background-color: var(--white);
+}
+
+
+/*==================== OUTLINED BUTTON ENDED =============*/
+/*==================== OUTLINED BUTTON ENDED =============*/
+
+
+
+
+
+/*===================== CENTER =================*/
+
+.cen {
+    width: fit-content;
+    margin: 0 auto !important;
+}
+
+.cen-flx-v {
+    display: flex;
+    align-items: center;
+}
+
+.cen-flx-h {
+    display: flex;
+    justify-content: center;
+}
+
+.cen-grd-v {
+    display: grid;
+    align-items: center;
+}
+
+.cen-grd-h {
+    display: grid;
+    justify-content: center;
+}
+
+.cen-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*===================== CENTER ENDED =================*/
+
+
+/*===================== WIDTH HEIGHT =================*/
+/*===================== WIDTH HEIGHT =================*/
+
+.h-per-10 {
+    height: 10%;
+}
+
+.h-per-25 {
+    height: 25%;
+}
+
+.h-per-50 {
+    height: 50%;
+}
+
+.h-per-75 {
+    height: 75%;
+}
+
+.h-per-100 {
+    height: 100%;
+}
+
+.h-fit {
+    height: fit-content;
+
+}
+
+.w-per-10 {
+    width: 10%;
+}
+
+.w-per-25 {
+    width: 25%;
+}
+
+.w-per-50 {
+    width: 50%;
+}
+
+.w-per-75 {
+    width: 75%;
+}
+
+.w-per-100 {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+/*===================== WIDTH HEIGHT ENDED =================*/
+/*===================== WIDTH HEIGHT ENDED =================*/
+
+/*================== FONT ======================*/
+.txt-wt-100 {
+    font-weight: 100;
+}
+
+.txt-wt-200 {
+    font-weight: 200;
+}
+
+.txt-wt-300 {
+    font-weight: 300;
+}
+
+.txt-wt-400 {
+    font-weight: 400;
+}
+
+.txt-wt-500 {
+    font-weight: 500;
+}
+
+.txt-wt-600 {
+    font-weight: 600;
+}
+
+.txt-wt-700 {
+    font-weight: 700;
+}
+
+.txt-wt-800 {
+    font-weight: 800;
+}
+
+.txt-wt-900 {
+    font-weight: 900;
+}
+
+.txt-cen {
+    text-align: center;
+}
+
+/*==================== SIZE ======================*/
+/*==================== SIZE ======================*/
+
+.sm {
+    display: none;
+}
+
+.md {
+    display: none;
+}
+
+.lg {
+    display: none;
+}
+
+.xl {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .sm {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .md {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .lg {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .xl {
+        display: block;
+    }
+}
+
+/*==================== SIZE END ======================*/
+/*==================== SIZE END ======================*/
+
+
+/*==================== BODER RADIUS END ======================*/
+.br-per-10 {
+    border-radius: 10%;
+}
+
+.br-per-25 {
+    border-radius: 25%;
+}
+
+.br-per-50 {
+    border-radius: 50%;
+}
+
+.br-per-75 {
+    border-radius: 75%;
+}
+
+.br-per-100 {
+    border-radius: 100%;
+}
+
+/*==================== BODER RADIUS END ======================*/
+
+
+/*==================== NAVBAR ======================*/
+/*==================== NAVBAR ======================*/
+
+#Mob-Linkcontainer {
+    width: 50%;
+    position: fixed;
+    height: 300vh;
+    top: 45px;
+    left: 0;
+    animation: aniNav 1s forwards;
+    display: none;
+}
+
+@keyframes aniNav {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#Mob-Linkcontainer.nav-active {
+    display: block !important;
+}
+
+
+.hamburger-container {
+    position: relative;
+    width: 25px;
+    /* Adjust the size of the icon */
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Style for the lines in the hamburger menu icon */
+/*======= Black ========*/
+.hamburger-container.black::before,
+.hamburger-container.black::after,
+.hamburger-line.black {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* Adjust the height of each line */
+    background-color: #0c0c0c;
+    transition: transform 0.4s ease, top 0.3s ease;
+}
+
+/*======= White ========*/
+.hamburger-container.white::before,
+.hamburger-container.white::after,
+.hamburger-line.white {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    /* Adjust the height of each line */
+    background-color: #f7f7f8;
+    transition: transform 0.4s ease, top 0.3s ease;
+}
+
+
+/* Positioning the lines */
+.hamburger-container::before {
+    top: -2px;
+}
+
+.hamburger-container::after {
+    bottom: -2px;
+}
+
+/* Default state - hamburger icon */
+.hamburger-line {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburger-container.active::before {
+    top: 9px;
+    transform: rotate(-45deg) translate(-5px, -6px);
+}
+
+.hamburger-container.active .hamburger-line {
+    opacity: 0;
+}
+
+.hamburger-container.active::after {
+    bottom: 9px;
+    transform: rotate(45deg) translate(-5px, 6px);
+}
+
+/*==================== NAVBAR ENDED ======================*/
+/*==================== NAVBAR ENDED ======================*/

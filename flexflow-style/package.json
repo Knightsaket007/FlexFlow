@@ -1,0 +1,16 @@
+{
+  "name": "flexflow-style",
+  "version": "1.0.4",
+  "description": "CSS library for flexible layouts",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "library",
+    "flexible-layout"
+  ],
+  "author": "Saket Sourav",
+  "license": "MIT"
+}
