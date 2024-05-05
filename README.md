@@ -1,7 +1,7 @@
 
 # FlexFlow
 ### Advance CSS Framework 
-Easy, Flexible and dynamic styling and built in components for Html and JSX.
+Easy, Flexible and dynamic styling and built-in components for HTML and JSX.
 
 ### Features
 
@@ -25,7 +25,7 @@ Easy, Flexible and dynamic styling and built in components for Html and JSX.
 [![link](https://img.shields.io/npm/v/flexflow-style
 )](https://www.npmjs.com/package/flexflow-style)
 
-React(JSX)[![link](https://img.shields.io/npm/v/flexflow-react
+React(JSX) [![link](https://img.shields.io/npm/v/flexflow-react
 )](https://www.npmjs.com/package/flexflow-react)
 
 
